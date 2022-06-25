@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--cdnjs.com-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" href="utitlities.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>About us | Screw It | Build Your Ideas Into Reality</title>
+</head>
+<body>
+
+    <!--Header-->
+    <div class="navbar">
+        <div class="container flex">
+            
+            <img src="./img/logo.png" alt="" class="logo">
+            
+            <div class="form">
+                <input type="text" placeholder="Search...">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About us</a></li>
+
+
+                </ul>
+
+                <ul>
+
+                    <li><a><i class="fas fa-shopping-cart cart-btn"></i></a></li>
+                    <li><a><i class="fas fa-user login-btn"></i></a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+
+    <!--Head-->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">
+                    About us
+                </h1>
+                <p class="lead">
+                    The hardware created for Filipino's dream to assist and build their dreams and provide remarkable, reliable and affordable tools and materials.
+                </p>
+            </div>
+            <i class="fas fa-gear fa-7x"></i>
+
+        </div>
+    </section>
+
+        <!--Sub head-->
+        <section class="features-sub-head bg-light py-3">
+            <div class="container grid">
+                <img src="./img/1656037861161.png" alt="">
+                <div>
+                    <h1 class="md">
+                        Build Your Ideas Into Reality
+                    </h1>
+    
+                    <p>
+                        Screw it was build to lend a hand to those dreams that requires high valued components, we aim to provide those precious necessities in a good price with a good service.
+                    </p>
+                </div>
+                    
+               
+            </div>
+        </section>
+
+        <!--Contact-->
+
+        <section class="contact grid">
+
+            <div class="contact-details">
+
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>#478 Nancamaliran East</span> Urdaneta City, Pangasinan</p>
+                    </div>
+    
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>09656490271</p>
+                    </div>
+    
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">clarenceordona.dagupan@gmail.com</a></p>
+                    </div>
+
+            </div>
+
+            <div class="contact-form">
+                <h2 class="text-center my-2">Inquiries || Concern</h3>
+                <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+
+
+        </section>
+
+
+       
+
+    
+
+     <!--Footer-->
+     <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+
+                <h1>Screw it</h1>
+
+                <p>Copyright &copy; 2022</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Products</a></li>
+                    <li><a href="docs.html">About us</a></li>
+                </ul>
+            </nav>
+           
+            <div class="social">
+                <a href="https://github.com/"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+                <p>Clarence Oliver Ordona</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login form -->
+    <div class="modal">
+        <div class="modal-box">
+            <div class="modal-body">
+                <h3>Login</h3>
+                <form>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <p><a href="#">Forgot your password?</a></p>
+                    <button class="btn btn-dark" href="index.html">Login</button>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <p>Don't have an account ? <a href="#">Sign up here</a></p>
+            </div>
+            <i class="fas fa-close close"></i>
+        </div>
+    </div>
+
+    <!-- Cart modal -->
+
+    <div class="cart-modal">
+        <div class="modal-box">
+            <div class="modal-body">
+                <h2>Your cart is empty</h2>
+                <i class="fas fa-close close cart_close"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="main.js">
+
+
+
+    </script>
+</body>
+</html>
